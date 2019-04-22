@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="RedditApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> AngularJS Reddit App </title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+</head>
+<body>
+
+  <section>
+  <h1>Awww Subreddit</h1>
+  <h3>Explore things that will make you go "Awww!"</h3>
+  <div class="flexbox">
+  <reddit-feed></reddit-feed>
+  </div>
+  </section>
+
+  <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
+  <script src="app.module.js"></script>
+  <script src="reddit.service.js"></script>
+  <script src="components/redditfeed.js"></script>
+</body>
+</html>
